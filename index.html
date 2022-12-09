@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Parallax for Website</title>
+		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<h2>Simple Parallax for Website</h2>
+		<p>C# (dibaca: C sharp) merupakan sebuah bahasa pemrograman yang berorientasi objek yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif kerangka .NET Framework. Bahasa pemrograman ini dibuat berbasiskan bahasa C++ yang telah dipengaruhi oleh aspek-aspek ataupun fitur bahasa yang terdapat pada bahasa-bahasa pemrograman lainnya seperti Java, Delphi, Visual Basic, dan lain-lain) dengan beberapa penyederhanaan. Menurut standar ECMA-334 C# Language Specification, nama C# terdiri atas sebuah huruf Latin C (U+0043) yang diikuti oleh tanda pagar yang menandakan angka # (U+0023). Tanda pagar # yang digunakan memang bukan tanda kres dalam seni musik (U+266F), dan tanda pagar # (U+0023) tersebut digunakan karena karakter kres dalam seni musik tidak terdapat di dalam keyboard standar. (Agro Rachmatullah, 2002)</p>
+	</section>
+	<div class="parallaxBg">
+		<img src="img1.jpeg" class="parallaximg1">
+		<h2>Left</h2>
+	</div>
+	<section>
+		<p>C# (dibaca: C sharp) merupakan sebuah bahasa pemrograman yang berorientasi objek yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif kerangka .NET Framework. Bahasa pemrograman ini dibuat berbasiskan bahasa C++ yang telah dipengaruhi oleh aspek-aspek ataupun fitur bahasa yang terdapat pada bahasa-bahasa pemrograman lainnya seperti Java, Delphi, Visual Basic, dan lain-lain) dengan beberapa penyederhanaan. Menurut standar ECMA-334 C# Language Specification, nama C# terdiri atas sebuah huruf Latin C (U+0043) yang diikuti oleh tanda pagar yang menandakan angka # (U+0023). Tanda pagar # yang digunakan memang bukan tanda kres dalam seni musik (U+266F), dan tanda pagar # (U+0023) tersebut digunakan karena karakter kres dalam seni musik tidak terdapat di dalam keyboard standar. (Agro Rachmatullah, 2002)</p>
+	</section>
+	<div class="parallaxBg">
+		<img src="img2.jpeg" class="parallaximg2">
+		<h2>Right</h2>
+	</div>
+	<section>
+		<p>Dalam rangkaian elektronika, resistor dilambangkan dengan huruf ”R”. jika dilihat berdasarkan jenis bahan yang dimiliki oleh resistor, terdapat beberapa jenis bahan yang beredar di pasaran seperti resistor Carbon, Wirewound, dan Metafilm. Adapun resistor yang beredar dipasaran juga terdapat jenis bisa diubah-ubah nilai resistansinya antara lain: Potensiometer, Rheostat dan Trimmer (Trimpot). Selain itu ada resistor yang nilai resistansinya berubah jika terkena cahaya, yaitu LDR (light Dependent Resistor), resistor yang nilai resistansinya akan bertambah besar bila terkena suhu panas yang namanya PTC (Positive Thermal Coefficient) dan resistor yang nilai resistansinya akan bertamba kecil bila terkena suhu panas yaitu NTC(Negative Thermal Coefficient).</p>
+	</section>
+	<div class="parallaxBg">
+		<img src="img3.jpeg" class="parallaximg3">
+		<h2>Top</h2>
+	</div>
+	<section>
+		<p>Resistor pada badannya terdapat lingkaran yang membentuk cincin dan memiliki warna beragam. Cincin warna pada badan resistor merupakan kode untuk mengetahui besar nilai resistansi tanpa harus mengukur besarnya dengan ohm meter. Kode warna tersebut adalah standar manufaktur yang dikeluarkan oleh EIA (Electronics Industries Associations) seperti yang ditunjukkan pada gambar 2.4. dan tabel 2.1. di bawah ini.</p>
+	</section>
+	<div class="parallaxBg">
+		<img src="img4.jpeg" class="parallaximg4">
+		<h2>Down</h2>
+		</div>
+	<section>
+	</div>
+	<section>
+		<p>Game yang berkaitan dalam menentukan warna resistor sebelumnya pernah dibuat orang, contohnya disini adalah Resistor color code game. Tampilan game ini sangat sederhana sekali. Dalam memainkannya, pemain diberikan 3 opsi untuk memilih tingkat kesulitan permainan yaitu, Easy, Intermediate dan Advanced. Gambar 2.6. di bawah ini adalah tampilan awal aplikasi game tersebut.</p>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+	<script>
+		var image1 = document.getElementsByClassName('parallaximg1');
+		var image2 = document.getElementsByClassName('parallaximg2');
+		var image3 = document.getElementsByClassName('parallaximg3');
+		var image4 = document.getElementsByClassName('parallaximg4');
+
+		new simpleParallax(image1, {
+			orientation: 'left'
+		});
+
+		new simpleParallax(image2, {
+			orientation: 'right'
+		});
+
+		new simpleParallax(image3, {
+			orientation: 'left'
+		});
+
+		new simpleParallax(image4, {
+			orientation: 'down'
+		});
+	</script>
+</body>
+</html>
